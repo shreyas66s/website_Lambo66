@@ -28,6 +28,8 @@ This is a showcase website for the Lamborghini Urus, a high-performance luxury S
 - To update the content, edit the relevant sections in `index.html`.
 - To modify styles, adjust the CSS rules in `lambo.css`.
 - To change form validation logic, edit the functions in `lambo.js`.
+- Webpage Look:
+![Screenshot 2024-08-10 134508](https://github.com/user-attachments/assets/423af5bd-db1f-4158-9151-a6d87ff93a13)
 
 ## Dependencies
 
