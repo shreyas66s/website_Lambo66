@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LAMBORGHINI</title>
+  <link rel="stylesheet" href="lambo.css">
+  <script src="lambo.js"></script>
+</head>
+<body>
+    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="welcome">MENU</a></li>
+        <li><a href="#LIST OF CARS">MODELS</a></li>
+        <li><a href="#COMPARE CARS MODELS">COMPARE</a></li>
+        <li><a href="#COUNTRY">COUNTRY</a></li>
+        <li><a href="#CAR ACCESSORIES">ACCESSORIES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>LAMBORGHINI URUS</h1>
+      <p>Lamborghini is a luxury sports car manufacturer based in Sant'Agata Bolognese, Italy. The company was founded in 1963 by Ferruccio Lamborghini, who originally made tractors. Lamborghini is renowned for producing some of the world's most exotic and high-performance supercars that feature cutting-edge design, engineering, and technology. The company's iconic models include the Miura, Countach, Diablo, Murcielago, Aventador, and Huracan, each of which has set new standards in automotive design and performance. Lamborghini's cars are known for their sleek and aggressive styling, powerful engines, and advanced aerodynamics that allow them to reach incredible speeds on the track. Today, Lamborghini continues to push the boundaries of what's possible in the world of automotive engineering, with its latest models combining performance, luxury, and exclusivity like never before.</p>
+      <br>
+      <p>The Lamborghini Urus is a high-performance SUV produced by the Italian luxury car manufacturer Lamborghini. It was first introduced as a concept car in 2012, and later unveiled as a production model in 2017. The Urus is the second SUV produced by Lamborghini after the LM002 that was produced from 1986 to 1993.</p>
+      <p>The Lamborghini Urus boasts a powerful 4.0-liter V8 twin-turbocharged engine, capable of producing 641 horsepower and 627 lb-ft of torque, allowing it to reach a top speed of 190 mph and accelerate from 0 to 60 mph in just 3.5 seconds. This makes it one of the fastest SUVs in the world.</p>
+      <p>the Urus features the sleek and aggressive styling that is characteristic of Lamborghini vehicles, with a bold front grille, sharp lines, and aerodynamic curves. The interior of the Urus is also designed with the driver in mind, featuring a luxurious and sporty cabin with premium materials and advanced technology, including a digital instrument cluster, a touch screen infotainment system, and driver assistance features.</p>
+      <br>
+      <a href="https://www.lamborghini.com/en-en/models/urus" class="button">Explore the URUS </a>
+    </section>
+    <br>
+    <br>
+    <section class="features">
+      <h2>Key Specifications of Lamborghini Urus</h2>
+      <table>
+        <tr>
+          <th>Engine Displacement (cc)</th>
+          <th>Max Power (bhp@rpm)</th>
+          <th>6000rpmMax Torque (nm@rpm)</th>
+          <th>No. of cylinder</th>
+          <th>Boot Space (Litres)</th>
+          <th>Fuel Tank Capacity</th>
+          <th>Body Type</th>
+        </tr>
+        <tr>
+          <td>3996cc</td>
+          <td>657.10bhp@6000rpm</td>
+          <td>850Nm@2250-4500rpm</td>
+          <td>8</td>
+          <td>616</td>
+          <td>75</td>
+          <td>SUV</td>
+        </tr>
+      </table>
+    </section>
+    <br>
+    <br>
+    <section class="REVIEWS">
+      <h2>REVIEWS</h2>
+      <blockquote>
+        "Owners of the Lamborghini Urus generally praise the vehicle for its combination of performance and practicality. The Urus is equipped with a 4.0-liter V8 engine that produces up to 650 horsepower, enabling it to reach 100kmph in just 3.6 seconds. Despite its impressive speed, the Urus also has a spacious interior, with enough room to comfortably seat up to five passengers."<br>
+        <cite>Nannapaneni Geethakarishna,india</cite>
+      </blockquote>
+      <blockquote>
+        "Great comfort. This car would give you luxury and sports experience. I would recommend to all rich buddies to try this out. If you can afford it this car wouldn't dissatisfy you."<br>
+        <cite>Kush,california</cite>
+      </blockquote>
+    </section>
+    <br>
+    <section class="video">
+              <iframe width="1100" height="500" src="https://www.youtube.com/embed/36EErA2djKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <br>
+    <section class="audio">
+      <h2>Audio</h2>
+      <audio src="lambo.mp3" controls></audio>
+    </section>
+    <br>
+    <br>
+    <section class="contact">
+      <h2>Proceed to buy</h2>
+      <form onsubmit="return validateForm()">
+		<label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<span class="error" id="emailError"></span>
+		<br>
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+		<span class="error" id="phoneError"></span>
+		<br>
+		<label for="date">Date of Birth:</label>
+		<input type="date" id="date" name="date" value="<?php echo date('Y-m-d'); ?>" required>
+		<br><br>
+		<label for="product">You are a:</label>
+		<select id="product" name="product">
+			<option value="student">starter</option>
+			<option value="soontobebride">intermediate</option>
+			<option value="others">professional</option>
+		</select>
+		<br><br>
+		<label for="checkbox">Mailing options:</label>
+        <input type="checkbox" name="all" value="all">All mails
+        <input type="checkbox" name="required" value="required">Required
+        </label>
+        <br><br>
+		<label for="radio">Gender:<br><br>
+            <input type="radio" name="gender" value="male">
+            Male
+          </label>
+          
+          <label>
+            <input type="radio" name="gender" value="female">
+            Female
+          </label>
+          
+          <label>
+            <input type="radio" name="gender" value="others">
+            Others
+          </label>
+          
+        
+		
+		<label for="textarea">Questions:</label>
+		<textarea id="textarea" name="textarea"></textarea>
+		
+		<input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Website Owner shreyas s | Email: shreyas1665@gmail.com</p>
+   <p> Credits:<a href="https://www.lamborghini.com/en-en" class="button">lamborghini.official </a></p>
+   <p> Credits:<a href="https://youtu.be/36EErA2djKc?feature=shared" class="button">YouTube </a></p>
+  </footer>
+</body>
+</html>
